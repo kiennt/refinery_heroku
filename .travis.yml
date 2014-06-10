@@ -2,4 +2,6 @@ deploy:
   provider: heroku
   app:
     master: knt-test-rails
+  api_key:
+    secure: SR5RvuP3O3mfK9iTRRSOaOpKNtORC2Z+OKfrId7ZglzJksfjTN2z7CNk/XiRI7mu6u60K9QJ/cnYUq6lPUJC2wwSE9pZY2MrPBqHJV+kgxTEO4NqGVIB8e5ugp4Tynb+RlXzWkz1WfH9W674qsp4c0QxMU8unJZZIGnFwWKomuw=
 script: bundle exec rspec spec
