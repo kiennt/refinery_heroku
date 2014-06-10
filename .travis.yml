@@ -1,0 +1,5 @@
+deploy:
+  provider: heroku
+  app:
+    master: knt-test-rails
+script: bundle exec rspec spec
